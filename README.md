@@ -1,114 +1,67 @@
-# Allwinner_H616_Devboard
-A minimalistic development board designed for the Cortex-A53 Allwinner H616 SoC using KiCad
 
-<p align="center">
-     <img height="300" src="https://github.com/Kononenko-K/Allwinner_H616_Devboard/blob/main/pics/main1.png">
-     <img height="300" src="https://github.com/Kononenko-K/Allwinner_H616_Devboard/blob/main/pics/main2.png">
-</p>
+# Nebula board
 
-## Overview
-The goal of this project, based on the schematics of Orange Pi Zero 2 and Orange Pi Zero 3, was to create a minimalistic development board for the H616 SoC with a functional DDR3/LPDDR4 topology and power supply. This allows it to be used as a basic design that can be modified for specific applications.
 
-## [Hardware](Hardware)
-Both versions of the board are powered by the 64-bit 1.5GHz Quad-Core Cortex-A53 Allwinner H616 SoC, supporting either Allwinner H616 or its pin-to-pin compatible successor, Allwinner H618. The primary difference between these chips is the increased L2 cache size in the H618 model.
-#### [DDR3 Version:](/Hardware/H616_DDR3)
-<p align="center">
-     <img width="650" src="https://github.com/Kononenko-K/Allwinner_H616_Devboard/blob/main/pics/2.jpg">
-</p>
+A brief description of my Allwinner H616 board.
+A minimalist board measuring 50 mm by 35 mm (subject to change)
+# JLCPCB & LCSC
+The main challenge with this 8-layer board is using an available stackup from JLCPCB as of August 29, 2026, I recommend [**JLC08101H-1080 (/Finished thickness 1.02 mm ±10%**.](https://jlcpcb.com/pcb-impedance-calculator)
+  
+Another challenge is that the via holes are 0.3 mm in size (0.35/0.45 mm). 
+With these parameters, [JLCPCB](https://cart.jlcpcb.com/) allows you to manufacture the board for $2 USD. Any change will make the price astronomical.
+For example, it is not recommended to change the **minimum via hole size/diameter.**
+For via covering, I used “via in pad,” so the manufacturer does not allow the via to remain unfilled with epoxy. 
+Dimensions up to 50 mm by 40 mm 
+If you have the budget, I recommend simply assembling a board based on the original  [Kononenko-K](https://github.com/Kononenko-K/Allwinner_H616_Devboard) design or redesigning my board, because there’s no point in doing this if you don’t want to order a PCB at a promotional price like I did—you’ll waste a lot of energy and may sacrifice stability.
 
-The DDR3 variant features a compact design optimized for simplicity and ease of learning. Key components include:
+PCB assembly, LCSC isn’t supported in Ukraine, of course, you can use a mail forwarding service, but I’m interested in soldering the board myself and buying parts cheaper on marketplaces—and that same **V3S** costs me practically nothing on the market. If you’re making a board for PCB assembly, it’s worth making it single-sided to save money, but the economical PCBA mode isn’t supported for BGA soldering, and it costs $25, so there’s no point in doing that.
+# RAM
+My board has only one DDR3 chip, up to 1 GB, but if you’re looking for performance, two chips provide twice as much memory and twice the speed.
 
-- **Memory:** Up to 8 Gbit (1 GB) of BGA-96 16x DDR3 RAM
-- **Power Management:** X-Powers AXP305 PMIC
-- **Connectivity:** Micro SD slot, USB HS Host connector
-- **Communication:** Integrated CP2102 USB-UART converter
 
-#### [LPDDR4 Version:](/Hardware/H616_LPDDR4)
-<p align="center">
-     <img width="650" src="https://github.com/Kononenko-K/Allwinner_H616_Devboard/blob/main/pics/3.jpg">
-</p>
+It's important to note that the H616 supports 16- or 32-bit RAM; according to **JEDEC**, a single DDR3 chip has a maximum of ***16 bits, so you'll need 16-bit RAM specifically.***
 
-The LPDDR4 variant offers enhanced capabilities tailored for my specific application, while also remaining suitable for educational use:
+### SK Hynix  
+* H5TQ1G63BFR (1 Gb / 128 MB)  
+* H5TQ2G63BFR / H5TQ2G63DFR (2 Gb / 256 MB)  
+* H5TQ4G63AFR / H5TQ4G63CFR / H5TQ4G63MFR (4 Gb / 512 MB)  
+* H5TC8G63AMR / H5TC8G63CMR (8 Gb / 1 GB — low-voltage DDR3L)  
+### Samsung  
+* K4B1G1646G / K4B1G1646I (1 Gb / 128 MB)  
+* K4B2G1646E / K4B2G1646F (2 Gb / 256 MB)  
+* K4B4G1646D / K4B4G1646E (4 Gb / 512 MB)  
+* K4B8G1646D / K4B8G1646B (8 Gb / 1 GB)  
+### Micron  
+* MT41J64M16 (1 Gb / 128 MB)  
+* MT41J128M16 / MT41K128M16 (2 Gb / 256 MB)  
+* MT41J256M16 / MT41K256M16 (4 Gb / 512 MB)  
+* MT41J512M16 / MT41K512M16 (8 Gb / 1 GB)  
+### Nanya  
+* NT5CB64M16 (1 Gb / 128 MB)  
+* NT5CB128M16 / NT5CC128M16 (2 Gb / 256 MB)  
+* NT5CB256M16 / NT5CC256M16 (4 Gb / 512 MB)  
+* NT5CC512M16 (8 Gb / 1 GB)**
 
-- **Memory:** Up to 32 Gbit (4 GB) of BGA-200 32x LPDDR4 RAM
-- **Power Management:** X-Powers AXP313A PMIC
-- **Storage:** Integrated SD2.0 Flash Memory chip and MicroSD slot for flexible storage options
-- **Auxiliary Processing:** Cortex-M4 STM32 microcontroller for additional processing tasks
-- **Communication:** Integrated CP2102 USB-UART converter
 
-To power the board via USB and connect external devices, a custom [USB board adapter](/Hardware/Debug_Adapter) is available.
+## EDA
+I’m screwing around with the layout because the DDR was really hard to route, and I lost all motivation working in KiCad—the wise will skip KiCad and download Altium, so think carefully about which software to use. 
+## Connection
+For Wi-Fi/Bluetooth, I’d choose a board based on the **RTL8821CS** for better speed and so on, because Wi-Fi connects via GPIO (i.e., **SDIO**) and Bluetooth via **UART**. But since there are 3 free USB channels, I’ll connect an **RTL8821CU** board to them for a simple USB connection. Feel free to use any other wireless module that suits your needs; **5 (5.8) GHz** support is important to me, which is why I chose the RTL8821CU, but I recommend taking a closer look at Broadcom options.
 
-### **Manufacturing specifications:**
-- **Layers:** 4-layer design  
-- **Trace/Space:** 3.5/3.5 mil  
-- **Via Sizes:** 0.35/0.15 mm 
-- **Prepreg:** 80u  
+## Power
 
-There are PDF documents available for both [DDR3](/Hardware/H616_DDR3/project.pdf) and [LPDDR4](/Hardware/H616_LPDDR4/project.pdf) versions.
+Since I’m planning for standalone operation, and the PMIC **AXP305** wasn’t designed for that—only for monotonous operation from a power supply in TV set-top boxes—it doesn’t support a battery, and there’s certainly no datasheet for it. According to the developer, we’re supposed to use only the reference design together with the **H616**—so be it. 
 
-## Software
+The **SW6206** is a versatile “all-in-one” microcontroller for power banks that supports fast charging up to 22.5 W. It supports simultaneous operation of up to 5 ports and is compatible with nearly all modern power delivery protocols, including ***PD 3.0, QC 4+, and PPS.***
+Therefore, if you plan to run the device on battery power, one USB port is dedicated exclusively to charging; it is not used for data transmission with the board, since smart charging protocols like QC and PD require a data line in the cable.
+ # Flux & Paste
 
-### **Building from Mainline:**
-#### Arm Trusted Firmware (TF-A):
-- Source: [here](https://git.trustedfirmware.org/TF-A/trusted-firmware-a.git/)
-```sh
-make CROSS_COMPILE=aarch64-linux-gnu- PLAT=sun50i_h616 RESET_TO_BL31=1
-```
-After building, copy the `bl31.bin` file to the U-Boot sources directory.
+For *double-sided soldering*, I recommend purchasing solder pastes: low-temperature (bismuth-based, **~138°C)** and medium-/high-temperature (lead-based, **~183°C**, or lead-free, **~217°C**).
 
-#### U-Boot:
-- Source: [here](https://github.com/u-boot/u-boot)
-```sh
-make ARCH=arm CROSS_COMPILE=aarch64-linux-gnu- orangepi_zero2_defconfig
-make ARCH=arm CROSS_COMPILE=aarch64-linux-gnu- BL31=bl31.bin
-```
+**MECHANIC V5B45** Sn42/Bi58 Solder Paste: Composition and Temperature: Tin-bismuth alloy (Sn42/Bi58) with a precise melting point of **138°C**. For the top side of **BGAs**.
 
-#### Linux Kernel:
-- Source: [www.kernel.org](http://www.kernel.org)
-```sh
-make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- defconfig
-make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- Image modules dtbs
-```
+**BS458** Mechanic Solder Paste: Features: A low-melting-point, lead-free, RoHS-compliant formulation supplied in convenient jars. For the back side, resistors, and capacitors.
 
-#### Rootfs:
-Example sources for arm64 rootfs:
-- [rcn-ee.com](https://rcn-ee.com/rootfs/eewiki/minfs)
-- [Linaro.org](https://releases.linaro.org/openembedded/images/)
 
-#### Preparing SD Card:
-1. Create two partitions: a small fat32 for boot files and an ext4 for rootfs.
-2. Write U-Boot to the card:
-```sh
-sudo dd if=/dev/zero of=/dev/mmcblk0 bs=1k count=1023 seek=1
-sudo dd if=u-boot-sunxi-with-spl.bin of=/dev/mmcblk0 bs=1024 seek=8
-```
-3. Copy dtb and kernel image to the first partition, then unpack rootfs to the second.
-
-If you prefer to load U-Boot into RAM and execute it directly over USB without using an SD card, you can use the `sunxi-fel` utility:  
-   ```sh
-   sudo sunxi-fel uboot u-boot-sunxi-with-spl.bin
-   ```  
-This method is useful for testing or when bypassing the SD card for some reason.
-
-#### Booting from U-Boot:
-Enter these commands in the U-Boot console:
-```sh
-setenv bootargs console=ttyS0,115200 root=/dev/mmcblk0p2 rw rootwait
-setenv bootcmd "mmc rescan; fatload mmc 0:1 0x46000000 Image; fatload mmc 0:1 0x49000000 sun50i-h616-orangepi-zero2.dtb; booti 0x46000000 - 0x49000000"
-```
-Use a `boot.scr` file for automatic booting.
-
-### **Using Buildroot:**
-For LPDDR4 version:
-```sh
-make orangepi_zero3_defconfig
-```
-For DDR3 versions, modify the config:
-```sh
-BR2_LINUX_KERNEL_INTREE_DTS_NAME="allwinner/sun50i-h616-orangepi-zero2.dts"
-BR2_TARGET_UBOOT_BOARD_DEFCONFIG="orangepi_zero2"
-```
-Download sources with `make source`, then build.
-
-## License
-- The **Hardware** in this project is licensed under the [CERN Open Hardware Licence Permissive (CERN OHL-P)](LICENSE).
+# Documentation & Soldering      WARNING!!!
+[***This***](https://csbible.com/wp-content/uploads/2018/03/CSB_Pew_Bible_2nd_Printing.pdf)
