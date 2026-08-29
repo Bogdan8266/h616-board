@@ -1,4 +1,8 @@
-
+![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-green?style=for-the-badge&logo=server)
+![KiCad](https://img.shields.io/badge/KiCad-yellow?style=for-the-badge&logo=kicad&logoColor=white)
+![AllWinner](https://img.shields.io/badge/SoC-H616-009688?style=for-the-badge&logo=allwinner&logoColor=white)
+![Telegram](https://img.shields.io/badge/BuildRoot-2CA5E0?style=for-the-badge&logo=linux&logoColor=white)
+![AI](https://img.shields.io/badge/JLCPCB-purple?style=for-the-badge&logo=PCB)
 # Nebula board
 
 
