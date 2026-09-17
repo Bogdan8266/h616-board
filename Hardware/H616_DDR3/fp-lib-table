@@ -1,4 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "projectlib")(type "KiCad")(uri "${KIPRJMOD}/projectlib.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "projectlib") (type "KiCad") (uri "${KIPRJMOD}/projectlib.pretty") (options "") (descr ""))
+	(lib (name "JLCImport") (type "KiCad") (uri "${KIPRJMOD}/JLCImport.pretty") (options "") (descr ""))
+	(lib (name "HDR") (type "KiCad") (uri "${KIPRJMOD}/HDR.pretty") (options "") (descr ""))
 )
