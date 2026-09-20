@@ -909,9 +909,14 @@
         "filename": "charge.kicad_sch",
         "name": "charge",
         "uuid": "34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+      },
+      {
+        "filename": "board.kicad_sch",
+        "name": "board",
+        "uuid": "a366c627-c1c7-46ef-be1f-93a29d62d74c"
       }
     ],
-    "used_designators": "RN1-3,SW1,BT1,L6,Q1-2,U4-7,R21-22,R25,R27-31,J2,J4-5,C66-85,#PWR55,#PWR57,#PWR86-88,#PWR90,#PWR92-96,#PWR100-149",
+    "used_designators": "RN1-3,SW1,H1-4,BT1,L6,Q1-2,U4-11,R21-22,R25-34,J2,J4-5,D3,C66-88,#PWR46,#PWR55,#PWR57,#PWR86-88,#PWR90,#PWR92-96,#PWR98,#PWR100-172",
     "variants": []
   },
   "sheets": [
@@ -942,6 +947,10 @@
     [
       "34c0604f-0eea-4ed0-a3f4-7af63e92cae5",
       "charge"
+    ],
+    [
+      "a366c627-c1c7-46ef-be1f-93a29d62d74c",
+      "board"
     ]
   ],
   "text_variables": {},
