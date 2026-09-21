@@ -11613,7 +11613,7 @@
 	(footprint "Bodya:BX-PH2_0-2PZZ"
 		(layer "F.Cu")
 		(uuid "6c5e4a30-adcd-4163-9235-32e231e5cb16")
-		(at 57.5 72)
+		(at 117.09 67.05)
 		(descr "-25℃~+85℃ 1 1x2P 2 250V 2A 2P 2mm 4.7mm 6.05mm 6mm Brass PA66 PH Through Hole Tin UL94V-0 White 插件,P=2mm Wire To Board Connector ROHS")
 		(tags "BX-PH2.0-2PZZ Bossie C18077744 CONN-TH_2P-P2.00_BOSSIE_BX-PH2.0-2PZZ")
 		(property "Reference" "U5"
@@ -44365,6 +44365,32 @@
 		(layer "B.Cu")
 		(uuid "f7b26486-7b76-461e-b1d1-0728e8faedad")
 		(at 78.6875 61.13 180)
+		(property "Reference" "U7"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "4254daef-4c3c-451f-983f-3f5d9fa32ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "AP6256"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "c0e6bb7a-d409-49f3-a819-0658da067a21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211041800_AMPAK-Tech-AP6256_C5248079.pdf"
 			(at 0 0 0)
 			(unlocked yes)
@@ -44389,32 +44415,6 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "AP6256"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "c0e6bb7a-d409-49f3-a819-0658da067a21")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Reference" "U7"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "4254daef-4c3c-451f-983f-3f5d9fa32ca6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
 				)
 				(justify mirror)
 			)
@@ -49533,6 +49533,37 @@
 		(uuid "2b30ca9a-582e-4f75-816d-ca57944d2d58")
 	)
 	(zone
+		(net "/H616_devboard/DRAM/SBA1")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 104.417403 60.977403) (xy 104.482597 61.042597) (xy 104.60579 61.077053) (xy 104.614422 60.845578)
+				(xy 104.498579 60.738579)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 104.417403 60.977403) (xy 104.482597 61.042597) (xy 104.60579 61.077053) (xy 104.614422 60.845578)
+				(xy 104.498579 60.738579)
+			)
+		)
+	)
+	(zone
 		(net "+1V8")
 		(layer "F.Cu")
 		(hatch none 0.1)
@@ -49622,37 +49653,6 @@
 			(pts
 				(xy 109.687527 56.392722) (xy 109.752722 56.327527) (xy 109.636157 56.040982) (xy 109.436576 56.076576)
 				(xy 109.400982 56.276157)
-			)
-		)
-	)
-	(zone
-		(net "/H616_devboard/DRAM/SBA1")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 104.417403 60.977403) (xy 104.482597 61.042597) (xy 104.60579 61.077053) (xy 104.614422 60.845578)
-				(xy 104.498579 60.738579)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 104.417403 60.977403) (xy 104.482597 61.042597) (xy 104.60579 61.077053) (xy 104.614422 60.845578)
-				(xy 104.498579 60.738579)
 			)
 		)
 	)
