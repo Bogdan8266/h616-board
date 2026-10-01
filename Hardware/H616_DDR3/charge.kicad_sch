@@ -4294,7 +4294,7 @@
 		)
 		(uuid "f172ba45-0099-4982-a821-447db75af0a4")
 	)
-	(global_label "+5VP"
+	(global_label "+5VP_0"
 		(shape input)
 		(at 218.44 96.52 0)
 		(fields_autoplaced yes)
@@ -4318,7 +4318,7 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "PMU_SCK"
 		(shape input)
 		(at 139.7 109.22 0)
 		(fields_autoplaced yes)
@@ -4342,7 +4342,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "PMU_SDA"
 		(shape input)
 		(at 101.6 110.49 180)
 		(fields_autoplaced yes)
@@ -4472,7 +4472,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "U5")
 					(unit 1)
 				)
@@ -4600,7 +4600,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "J4")
 					(unit 1)
 				)
@@ -4679,7 +4679,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R30")
 					(unit 1)
 				)
@@ -4758,7 +4758,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0105")
 					(unit 1)
 				)
@@ -4838,7 +4838,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R28")
 					(unit 1)
 				)
@@ -4917,7 +4917,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -4995,7 +4995,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -5073,7 +5073,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0110")
 					(unit 1)
 				)
@@ -5154,7 +5154,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C76")
 					(unit 1)
 				)
@@ -5235,7 +5235,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C73")
 					(unit 1)
 				)
@@ -5313,7 +5313,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -5394,7 +5394,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C72")
 					(unit 1)
 				)
@@ -5475,7 +5475,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C74")
 					(unit 1)
 				)
@@ -5555,7 +5555,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R31")
 					(unit 1)
 				)
@@ -5636,7 +5636,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C80")
 					(unit 1)
 				)
@@ -5751,7 +5751,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "BT1")
 					(unit 1)
 				)
@@ -5832,7 +5832,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C75")
 					(unit 1)
 				)
@@ -5910,7 +5910,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0104")
 					(unit 1)
 				)
@@ -5988,7 +5988,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -6066,7 +6066,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0102")
 					(unit 1)
 				)
@@ -6145,7 +6145,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0108")
 					(unit 1)
 				)
@@ -6226,7 +6226,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C71")
 					(unit 1)
 				)
@@ -6307,7 +6307,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C79")
 					(unit 1)
 				)
@@ -6388,7 +6388,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C78")
 					(unit 1)
 				)
@@ -6467,7 +6467,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0107")
 					(unit 1)
 				)
@@ -6546,7 +6546,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "L6")
 					(unit 1)
 				)
@@ -6627,7 +6627,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C77")
 					(unit 1)
 				)
@@ -6707,7 +6707,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R27")
 					(unit 1)
 				)
@@ -6785,7 +6785,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -6868,7 +6868,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -6984,7 +6984,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -7062,7 +7062,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -7140,7 +7140,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -7394,7 +7394,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "U4")
 					(unit 1)
 				)
@@ -7474,7 +7474,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R29")
 					(unit 1)
 				)
@@ -7553,16 +7553,169 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
 		)
 	)
+	
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1111111-2222-4444-8888-000000000001")
+	)
+	(label "VOUTSP"
+		(at 144.78 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1111111-2222-4444-8888-000000000002")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1111111-2222-4444-8888-000000000003")
+	)
+	(label "VOUTSN"
+		(at 144.78 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1111111-2222-4444-8888-000000000004")
+	)
+	(label "VOUTSP"
+		(at 182.88 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1111111-2222-4444-8888-000000000005")
+	)
+	(label "VOUTSN"
+		(at 190.5 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1111111-2222-4444-8888-000000000006")
+	)
+	(wire
+		(pts
+			(xy 101.6 105.41) (xy 96.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1111111-2222-4444-8888-000000000007")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1111111-2222-4444-8888-000000000008")
+		(property "Reference" "#PWR0199"
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1111111-2222-4444-8888-000000000009")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
-		(path "/"
+		(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 			(page "7")
 		)
+	)
 	)
 )

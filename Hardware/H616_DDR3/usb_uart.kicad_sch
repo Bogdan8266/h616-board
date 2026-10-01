@@ -1446,12 +1446,6 @@
 		(uuid "1ac93c87-8be3-40b8-95c6-6e9fad25cb8a")
 	)
 	(junction
-		(at 156.845 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ba1a8a4-7525-434b-ab9a-0d935a0e54ba")
-	)
-	(junction
 		(at 165.735 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1506,16 +1500,6 @@
 			(type default)
 		)
 		(uuid "65af9ff8-c731-4d3e-a7ac-ceaeea70e1ba")
-	)
-	(wire
-		(pts
-			(xy 165.735 110.49) (xy 156.845 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b25aa6-9824-45b6-86f6-d8917bd8ce52")
 	)
 	(wire
 		(pts
@@ -1586,16 +1570,6 @@
 			(type default)
 		)
 		(uuid "f32b0787-1a4e-461f-8a30-3694fa915273")
-	)
-	(wire
-		(pts
-			(xy 156.845 110.49) (xy 156.845 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb7a9dc-c39e-4804-b524-8ec466f8ec5a")
 	)
 	(global_label "D+"
 		(shape input)
@@ -1690,7 +1664,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "5.1k"
 			(at 164.465 113.665 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +1743,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "5.1k"
 			(at 164.465 120.015 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,4 +2405,88 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.845 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc111111-2222-4444-8888-000000000001")
+		(property "Reference" "#PWR0197"
+			(at 153.035 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.845 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.845 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.845 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.845 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc111111-2222-4444-8888-000000000002")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/95399e0d-575a-4500-9429-e4d55ac775b9"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/44f68964-8d75-4db0-b784-705712e148bc/95399e0d-575a-4500-9429-e4d55ac775b9"
+			(page "6")
+		)
+	)
 )
+

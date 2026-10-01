@@ -8401,9 +8401,83 @@
 		(at 69.85 46.99)
 		(uuid "7e4fb5fe-540f-4163-888f-095c8a3b3701")
 	)
-	(no_connect
-		(at 69.85 44.45)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9219c754-b8f4-4b86-ab24-28a95806b20c")
+		(property "Reference" "#PWR0198"
+			(at 66.04 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9219c754-b8f4-4b86-ab24-28a95806b20d")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2cf23393-b934-4ee4-a6b6-72df378d458a"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(no_connect
 		(at 69.85 54.61)
@@ -15300,83 +15374,16 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
+	(label "ALDO1"
 		(at 57.15 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
 		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "7ab27e0d-1f9e-4d1c-aa4e-619922571b3f")
-		(property "Reference" "#PWR016"
-			(at 57.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 57.15 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91bcffb6-964f-4f5a-8546-3c434468b394")
-		)
-		(instances
-			(project "H616_devboard"
-				(path "/44f68964-8d75-4db0-b784-705712e148bc/2cf23393-b934-4ee4-a6b6-72df378d458a"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+1V8")
@@ -15932,84 +15939,16 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 158.75 121.285 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+	(label "ALDO1"
+		(at 158.75 121.285 0)
 		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "861b0175-66c0-40e5-9892-f308b74f7739")
-		(property "Reference" "#PWR042"
-			(at 154.94 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 162.56 121.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b03d901-eb4f-485b-954d-35b985eb0489")
-		)
-		(instances
-			(project "H616_devboard"
-				(path "/44f68964-8d75-4db0-b784-705712e148bc/2cf23393-b934-4ee4-a6b6-72df378d458a"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -16173,7 +16112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
+		(lib_id "power:+3.3V")
 		(at 123.19 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -16195,7 +16134,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VP"
+		(property "Value" "+3.3V"
 			(at 123.19 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17120,7 +17059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
+		(lib_id "power:+3.3V")
 		(at 158.75 128.27 270)
 		(unit 1)
 		(body_style 1)
@@ -17142,7 +17081,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VP"
+		(property "Value" "+3.3V"
 			(at 162.56 128.905 90)
 			(show_name no)
 			(do_not_autoplace no)

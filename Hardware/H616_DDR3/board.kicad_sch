@@ -174,7 +174,7 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/a366c627-c1c7-46ef-be1f-93a29d62d74c"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/a366c627-c1c7-46ef-be1f-93a29d62d74c"
 					(reference "H1")
 					(unit 1)
 				)
@@ -182,7 +182,7 @@
 		)
 	)
 	(sheet_instances
-		(path "/"
+		(path "/44f68964-8d75-4db0-b784-705712e148bc/a366c627-c1c7-46ef-be1f-93a29d62d74c"
 			(page "8")
 		)
 	)
