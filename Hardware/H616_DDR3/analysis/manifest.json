@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "project": "H616_devboard.kicad_pro",
+  "current": "2026-10-01_0206",
+  "runs": {
+    "2026-10-01_0206": {
+      "source_hashes": {
+        "H616_devboard.kicad_sch": "sha256:0573edda160a0a3e241b321b7b9080878a394bc02e8d77a193428dda7cd1398f",
+        "H616_devboard.kicad_pcb": "sha256:31159efe353b8b3d5d20139877d1b68e66a40c594dfce9862f4cdc4f6bde3293",
+        "schematic.json": "sha256:96dc0be6e2dc327c000ec6979ff535b0c675ce41eaf55a8e12ea1519ed155c57",
+        "pcb.json": "sha256:16b5e11e792d87f968e0d67375fb56436eb23d21df3522162e297b91e88b38db"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py H616_devboard.kicad_sch"
+      },
+      "generated": "2026-10-01T02:06:54+03:00",
+      "pinned": false
+    }
+  }
+}
