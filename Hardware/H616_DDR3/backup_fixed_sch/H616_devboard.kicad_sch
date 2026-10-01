@@ -144,52 +144,6 @@
 		)
 	)
 	(sheet
-		(at 174.625 109.22)
-		(size 27.94 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "34c0604f-0eea-4ed0-a3f4-7af63e92cae5")
-		(property "Sheetname" "CHARGE"
-			(at 174.625 108.5084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "charge.kicad_sch"
-			(at 174.625 132.6646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "H616_devboard"
-				(path "/44f68964-8d75-4db0-b784-705712e148bc"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 93.345 109.22)
 		(size 27.305 22.86)
 		(exclude_from_sim no)
@@ -277,6 +231,52 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 174.625 109.22)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "34c0604f-0eea-4ed0-a3f4-7af63e92cae5")
+		(property "Sheetname" "CHARGE"
+			(at 174.625 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charge.kicad_sch"
+			(at 174.625 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc"
+					(page "7")
 				)
 			)
 		)

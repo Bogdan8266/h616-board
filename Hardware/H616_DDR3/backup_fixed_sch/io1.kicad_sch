@@ -15114,16 +15114,6 @@
 		)
 		(uuid "3381ba76-de9a-4838-90b2-5a34bb57ebfb")
 	)
-	(label "VDDI"
-		(at 102.87 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "351ad56b-3bb9-4809-b3c7-c0379181ba1b")
-	)
 	(label "PI2"
 		(at 372.11 147.32 180)
 		(effects
@@ -15593,16 +15583,6 @@
 			(justify right bottom)
 		)
 		(uuid "90ec3646-53df-4ee8-9702-fe2a67db2afe")
-	)
-	(label "VDDI"
-		(at 55.88 140.97 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "946c4754-65a7-4bca-ae9a-71b848b70b61")
 	)
 	(label "DAT0"
 		(at 106.68 72.39 0)
@@ -18755,7 +18735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bodya:sd-short"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 			(at 273.685 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -18829,6 +18809,17 @@
 				)
 			)
 		)
+	)
+	(label "VDDI"
+		(at 102.87 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "351ad56b-3bb9-4809-b3c7-c0379181ba1b")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -21926,6 +21917,17 @@
 				)
 			)
 		)
+	)
+	(label "VDDI"
+		(at 55.88 140.97 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "946c4754-65a7-4bca-ae9a-71b848b70b61")
 	)
 	(symbol
 		(lib_id "power:+1V8")
