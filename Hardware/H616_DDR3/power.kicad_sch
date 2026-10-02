@@ -9101,6 +9101,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 143.51) (xy 158.75 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44efad1b-47ff-4be8-88a0-d79c586dc0ea")
+	)
+	(wire
+		(pts
 			(xy 100.33 99.06) (xy 100.33 101.6)
 		)
 		(stroke
@@ -11105,7 +11115,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00a6c201-85bd-47ca-a36a-1403f5cb351d")
 		(property "Reference" "TP2"
@@ -11417,7 +11427,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0a57bbd6-e5e2-493d-975a-cbfccd96c30a")
 		(property "Reference" "TP3"
@@ -15248,7 +15258,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7a03e1f4-7b54-4715-98f1-691801847b00")
 		(property "Reference" "TP5"
@@ -16831,7 +16841,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9cebf79e-11c9-45cd-bce5-c8d58cebb462")
 		(property "Reference" "TP6"
@@ -17766,18 +17776,18 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 158.75 142.875 90)
+		(at 157.48 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c37c8e8a-ad29-412a-bb82-c6833494402a")
 		(property "Reference" "TP8"
-			(at 155.448 138.43 90)
+			(at 154.178 139.065 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17787,7 +17797,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 155.448 140.97 90)
+			(at 154.178 141.605 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17797,7 +17807,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 158.75 137.795 0)
+			(at 157.48 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17808,7 +17818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 137.795 0)
+			(at 157.48 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17819,7 +17829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 142.875 0)
+			(at 157.48 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18553,7 +18563,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e135708c-f89d-446a-92f3-9c2ea9ffbeae")
 		(property "Reference" "TP7"
@@ -18951,7 +18961,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e90e7105-7968-4153-869d-f69409b87f4e")
 		(property "Reference" "TP4"

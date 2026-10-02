@@ -179,12 +179,6 @@
 					(unit 1)
 				)
 			)
-			(project "H616_devboard"
-				(path "/a366c627-c1c7-46ef-be1f-93a29d62d74c"
-					(reference "H1")
-					(unit 1)
-				)
-			)
 		)
 	)
 )

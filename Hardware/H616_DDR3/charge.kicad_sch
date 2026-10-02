@@ -4542,12 +4542,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "U5")
 					(unit 1)
@@ -4676,12 +4670,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "J4")
 					(unit 1)
@@ -4761,12 +4749,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R30")
 					(unit 1)
@@ -4845,12 +4827,6 @@
 			(uuid "5417a2dd-10e1-4279-bd85-f46b0f293dd7")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0105")
@@ -4932,12 +4908,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R28")
 					(unit 1)
@@ -5017,12 +4987,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0100")
 					(unit 1)
@@ -5101,12 +5065,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0101")
 					(unit 1)
@@ -5184,12 +5142,6 @@
 			(uuid "eef422df-8516-49cf-9ac9-118453c2eaa9")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0110")
@@ -5272,12 +5224,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C76")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C76")
 					(unit 1)
@@ -5359,12 +5305,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C73")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C73")
 					(unit 1)
@@ -5442,12 +5382,6 @@
 			(uuid "ae020839-2e18-42a3-b8d7-9444a0c53af0")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR095")
@@ -5530,12 +5464,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C72")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C72")
 					(unit 1)
@@ -5617,12 +5545,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C74")
 					(unit 1)
@@ -5702,12 +5624,6 @@
 			(uuid "5555f0d8-2a52-4919-9548-b589a5280531")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "R31")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R31")
@@ -5789,12 +5705,6 @@
 			(uuid "c671d100-cd03-462e-990f-d2876dd87d3c")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C80")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C80")
@@ -5911,12 +5821,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "BT1")
 					(unit 1)
@@ -5998,12 +5902,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C75")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C75")
 					(unit 1)
@@ -6081,12 +5979,6 @@
 			(uuid "2d8784d6-d25a-45b8-851a-ba546719b25b")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0104")
@@ -6166,12 +6058,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR096")
 					(unit 1)
@@ -6249,12 +6135,6 @@
 			(uuid "f11bafd1-ce7b-4d32-b780-b9ee08f0e570")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0102")
@@ -6334,12 +6214,6 @@
 			(uuid "2231b3a5-9358-4cdd-8b78-e9cf3d0f1b19")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0108")
@@ -6422,12 +6296,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C71")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C71")
 					(unit 1)
@@ -6509,12 +6377,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C79")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C79")
 					(unit 1)
@@ -6591,12 +6453,6 @@
 			(uuid "a1111111-2222-4444-8888-000000000009")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0199")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0199")
@@ -6679,12 +6535,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C78")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C78")
 					(unit 1)
@@ -6764,12 +6614,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0107")
 					(unit 1)
@@ -6848,12 +6692,6 @@
 			(uuid "419523cf-7d03-4a81-996e-91c5ca4d9416")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "L6")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "L6")
@@ -6936,12 +6774,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "C77")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "C77")
 					(unit 1)
@@ -7022,12 +6854,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R27")
 					(unit 1)
@@ -7105,12 +6931,6 @@
 			(uuid "de6c6546-386b-404b-af65-67239992750b")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR093")
@@ -7194,12 +7014,6 @@
 			(uuid "da6576e8-2699-481e-b12b-5712df94caeb")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "SW1")
@@ -7317,12 +7131,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "Q1")
 					(unit 1)
@@ -7401,12 +7209,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR094")
 					(unit 1)
@@ -7484,12 +7286,6 @@
 			(uuid "8f969f92-7ddd-4ab5-82b8-754a08e55bc4")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0103")
@@ -7745,12 +7541,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "U4")
 					(unit 1)
@@ -7831,12 +7621,6 @@
 		)
 		(instances
 			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "R29")
 					(unit 1)
@@ -7915,12 +7699,6 @@
 			(uuid "828a8664-1e81-4f65-b0d3-8c4fef8358c4")
 		)
 		(instances
-			(project "H616_devboard"
-				(path "/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
 					(reference "#PWR0106")
