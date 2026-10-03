@@ -1038,7 +1038,7 @@
 			)
 		)
 		(property "Value" "SW6206"
-			(at 0 4.33 90)
+			(at 0 4.33 270)
 			(layer "F.Fab")
 			(uuid "e93cde13-d7e9-4992-afa5-0aaff7bc2df6")
 			(effects
@@ -1049,7 +1049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "da4bac6a-f21f-402d-89a4-f5d556463da5")
@@ -1060,7 +1060,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "275f1dcb-92c6-497c-b247-4a4df70e4e1d")
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cb017e7e-8c10-48aa-8991-edbc40138d7c")
@@ -1431,7 +1431,7 @@
 			(uuid "e868b9af-cda6-4702-8a4f-09126fffa15a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "d33ce11c-15d9-46ce-99a0-f101bed4f8d5")
 			(effects
@@ -2148,7 +2148,7 @@
 			(uuid "6f39d7b9-f54f-450d-882f-2e1f21e972da")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-48-1EP_6x6mm_P0.4mm_EP4.45x4.45mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2157,17 +2157,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.9 0.9 0.9)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4887,29 +4876,6 @@
 			(uuid "c3884333-58c3-47de-87a5-0271ec275446")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SoC_H616.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Package_BGA.3dshapes/BGA-484_23.0x23.0mm_Layout22x22_P1.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.6 0.5 0.6)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -7401,17 +7367,6 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/AP6256.wrl"
-			(offset
-				(xyz 0 -0.5 0)
-			)
-			(scale
-				(xyz 0.4 0.4 0.3)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
 	)
 	(footprint "Inductor_SMD:L_Changjiang_FNR252010S"
 		(layer "F.Cu")
@@ -8954,52 +8909,6 @@
 			(uuid "99512828-0f1e-4a15-839c-2af126088f3e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x15_P2.54mm_Vertical.step"
-			(hide yes)
-			(offset
-				(xyz -17.78 -1.27 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.step"
-			(hide yes)
-			(offset
-				(xyz 15 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x15_P2.54mm_Vertical.step"
-			(offset
-				(xyz 17.73 1.27 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x15_P2.54mm_Vertical.step"
-			(offset
-				(xyz 17.73 -1.3 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -9943,7 +9852,7 @@
 			(uuid "0a92c10d-3a9a-419a-9324-e612d18ed2b4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Palconn_UTC16-G.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9954,7 +9863,8 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(model "kicad-embed://USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9963,6 +9873,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "kicad-embed://USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+			(offset
+				(xyz 0 -1.2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -11878,7 +11799,7 @@
 		(descr "JEDEC eMMC AN BGA-153, 11.5x13.0mm, 153 Ball, 14x14 Layout, 0.5mm Pitch, https://www.jedec.org/sites/default/files/docs/MO-276F.pdf")
 		(tags "BGA 153 0.5")
 		(property "Reference" "U6"
-			(at -6.6 0.01 0)
+			(at -6.6 0.01 180)
 			(layer "F.SilkS")
 			(uuid "8fcb5543-4fd4-4eb0-b22b-06e26772125c")
 			(effects
@@ -13650,8 +13571,7 @@
 			(uuid "e089d76d-ed35-4a1f-8e85-732d2cb19f10")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step"
-			(hide yes)
+		(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA-153_11.5x13mm_Layout14x14_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13660,17 +13580,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Package_BGA.3dshapes/Analog_BGA-165_11.9x16mm_Layout11x15_P1.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 0.95 0.8 0.3)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -14235,18 +14144,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_Video.3dshapes/HDMI_Micro-D_Molex_46765-1xxx.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Connector_Video.3dshapes/HDMI_Micro-D_Molex_46765-1xxx.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15881,7 +15778,7 @@
 			(uuid "66819a79-147f-40cf-af8b-2457c2ba064e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T-SH_NO_CK_KMR2xxG.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_CK_KMS2xxGP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15900,7 +15797,7 @@
 		(descr "Inductor, Changjiang, FNR252010S, 2.5x2.0x1.0mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 		(tags "wirewound power shielded")
 		(property "Reference" "L4"
-			(at 0.007093 2.087287 0)
+			(at 0.007093 2.087287 180)
 			(layer "F.SilkS")
 			(uuid "87310d55-3627-46df-97a0-499c3ab8bce5")
 			(effects
@@ -16050,17 +15947,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/Inductor_2520.step"
-			(offset
-				(xyz 1.1 0 0.55)
-			)
-			(scale
-				(xyz 0.9 0.9 0.9)
-			)
-			(rotate
-				(xyz 90 -180 -90)
 			)
 		)
 	)
@@ -17700,18 +17586,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18322,15 +18196,15 @@
 			(uuid "5fc3c7cf-e426-46c0-bd4d-28f06e2eab35")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(model "kicad-embed://USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1.3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -21948,18 +21822,6 @@
 			(uuid "d0b03fb2-ca33-4ab2-8509-b84bd022bd5f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/MicroSD_DM3AT.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
@@ -23834,7 +23696,7 @@
 			(uuid "96907cf6-be1d-41e7-9478-20bab36df978")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/3dmodels/Package_BGA.3dshapes/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
