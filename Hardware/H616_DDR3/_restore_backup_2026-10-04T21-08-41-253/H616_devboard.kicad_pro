@@ -156,12 +156,12 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_silk_clearance": 0.1,
+        "min_text_height": 0.12,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.05,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -214,18 +214,14 @@
       ],
       "track_widths": [
         0.0,
-        0.0914,
-        0.0958,
+        0.1021,
+        0.1029,
+        0.1046,
         0.1064,
         0.1072,
-        0.108,
-        0.1095,
         0.3,
-        0.5,
-        0.9,
-        1.0,
-        1.5,
-        2.0
+        0.6,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -904,19 +900,9 @@
         "filename": "H616_devboard.kicad_sch",
         "name": "H616_devboard",
         "uuid": "44f68964-8d75-4db0-b784-705712e148bc"
-      },
-      {
-        "filename": "charge.kicad_sch",
-        "name": "charge",
-        "uuid": "34c0604f-0eea-4ed0-a3f4-7af63e92cae5"
-      },
-      {
-        "filename": "board.kicad_sch",
-        "name": "board",
-        "uuid": "a366c627-c1c7-46ef-be1f-93a29d62d74c"
       }
     ],
-    "used_designators": "RN1-3,SW1,H1-4,BT1,L6,Q1-2,U4-11,R21-22,R25-34,J2,J4-5,D3,C66-88,#PWR46,#PWR55,#PWR57,#PWR86-88,#PWR90,#PWR92-96,#PWR98,#PWR100-172",
+    "used_designators": "RN1-3,SW1,H1-4,BT1,L6,Q1-3,U4-11,R21-22,R25-36,J2,J4-5,D3,C66-88,#PWR46,#PWR55,#PWR57,#PWR86-88,#PWR90,#PWR92-96,#PWR98,#PWR100-173",
     "variants": []
   },
   "sheets": [
@@ -946,11 +932,11 @@
     ],
     [
       "34c0604f-0eea-4ed0-a3f4-7af63e92cae5",
-      "charge"
+      "CHARGE"
     ],
     [
       "a366c627-c1c7-46ef-be1f-93a29d62d74c",
-      "board"
+      "BOARD"
     ]
   ],
   "text_variables": {},
