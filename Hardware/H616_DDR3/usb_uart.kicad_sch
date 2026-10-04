@@ -1446,6 +1446,12 @@
 		(uuid "1ac93c87-8be3-40b8-95c6-6e9fad25cb8a")
 	)
 	(junction
+		(at 165.735 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f25751-81e6-4847-87fd-fedd7084cdb3")
+	)
+	(junction
 		(at 165.735 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1507,6 +1513,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 110.49) (xy 165.735 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8e2de9-ba85-4e44-afcc-40d59c33dbe0")
+	)
+	(wire
+		(pts
 			(xy 156.845 115.57) (xy 156.845 118.11)
 		)
 		(stroke
@@ -1517,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 149.225 110.49)
+			(xy 142.875 110.49) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1544,6 +1560,16 @@
 			(type default)
 		)
 		(uuid "db01cca0-1d84-4cd9-a274-d67447c313b4")
+	)
+	(wire
+		(pts
+			(xy 165.735 110.49) (xy 166.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88c1bb6-489d-45f7-a7af-78dd8e9e5bb3")
 	)
 	(wire
 		(pts
@@ -1875,7 +1901,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 147.32 110.49 90)
+		(at 142.875 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1885,7 +1911,7 @@
 		(dnp no)
 		(uuid "59336c99-e008-4775-a148-5b5a9622e850")
 		(property "Reference" "#PWR089"
-			(at 151.13 110.49 0)
+			(at 146.685 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1896,7 +1922,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 137.795 109.982 90)
+			(at 133.35 109.982 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1907,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 110.49 0)
+			(at 142.875 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1918,7 +1944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 110.49 0)
+			(at 142.875 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1929,7 +1955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 110.49 0)
+			(at 142.875 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2239,7 +2265,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 153.035 110.49 180)
+		(at 148.59 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2250,7 +2276,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9b8ff72-1eda-43a1-9418-5653b3079a3e")
 		(property "Reference" "D4"
-			(at 153.3525 104.14 0)
+			(at 148.9075 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2260,7 +2286,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 153.3525 106.68 0)
+			(at 148.9075 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2270,7 +2296,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 153.035 110.49 0)
+			(at 148.59 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2281,7 +2307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.035 110.49 0)
+			(at 148.59 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.035 110.49 0)
+			(at 148.59 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

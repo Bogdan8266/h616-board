@@ -13695,6 +13695,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VP"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5VP"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5VP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -22463,84 +22599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 368.3 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8c7aee86-435b-47b3-8c12-7c79977f877d")
-		(property "Reference" "#PWR0172"
-			(at 372.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 364.49 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4424f0a-c556-48be-a63d-c615443270c9")
-		)
-		(instances
-			(project "H616_devboard"
-				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 57.15 91.44 270)
 		(unit 1)
@@ -23576,6 +23634,84 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 368.3 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bce4ee25-d113-44c7-9055-d53a902f8622")
+		(property "Reference" "#PWR0172"
+			(at 372.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 358.775 108.712 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fd77b38-b62f-46c0-ac9b-7d912d9939c2")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
