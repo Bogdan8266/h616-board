@@ -69,6 +69,6 @@ For *double-sided soldering*, I recommend purchasing solder pastes: low-temperat
 
 # Documentation & Soldering      WARNING!!!
 [***This***](https://csbible.com/wp-content/uploads/2018/03/CSB_Pew_Bible_2nd_Printing.pdf)
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=Bogdan8266&page=h616-board&color=blue&label=Repo%20views&v=2" alt="Views">
+<p align="right"> 
+  <img src="https://gitviews.com/repo/Bogdan8266/h616-board.svg" alt="Views">
 </p>
