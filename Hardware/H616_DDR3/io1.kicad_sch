@@ -1854,6 +1854,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Antenna_Shield"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "AE"
+				(at -1.905 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Antenna with extra pin for shielding"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start 0 -2.667)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_Shield_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -13810,16 +14026,46 @@
 		(uuid "59de1f68-ace1-49a0-a523-6c8b3d5a4d6c")
 	)
 	(junction
+		(at 255.27 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7022694b-38e6-4009-a95c-9e5f53296dbe")
+	)
+	(junction
+		(at 223.52 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cce8adc-661a-43f9-be8c-d240b21d3a2d")
+	)
+	(junction
+		(at 241.3 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80dd829c-fe18-40f5-acfb-55f414cabca9")
+	)
+	(junction
 		(at 266.7 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c492ac-61f2-4ef6-8cc3-9dd6e6b53117")
 	)
 	(junction
+		(at 241.3 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f44bfc7-0b90-41b1-a1f0-d9afa37479c7")
+	)
+	(junction
 		(at 166.37 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95af73c5-76d4-4c39-869c-526aaaccd808")
+	)
+	(junction
+		(at 223.52 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d25b4b79-1b5e-4007-857a-420497a3d7eb")
 	)
 	(junction
 		(at 169.545 118.11)
@@ -13856,6 +14102,16 @@
 			(type default)
 		)
 		(uuid "0556a11b-046a-4ecf-8b6e-e04cfa20838d")
+	)
+	(wire
+		(pts
+			(xy 219.71 147.32) (xy 219.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b67ba2-6c44-4700-8c17-451826b59b86")
 	)
 	(wire
 		(pts
@@ -14149,6 +14405,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 147.32) (xy 247.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304ebaa2-830d-46d5-a066-2b40a7056fd9")
+	)
+	(wire
+		(pts
 			(xy 40.64 96.52) (xy 44.45 96.52)
 		)
 		(stroke
@@ -14239,6 +14505,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 152.4) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c3619c-2086-4f32-9275-0b503c8b1225")
+	)
+	(wire
+		(pts
 			(xy 355.6 213.36) (xy 358.14 213.36)
 		)
 		(stroke
@@ -14306,6 +14582,16 @@
 			(type default)
 		)
 		(uuid "4bf615c8-d825-4d10-b9c0-51e97da5cc80")
+	)
+	(wire
+		(pts
+			(xy 219.71 152.4) (xy 223.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e25c980-f4a3-44ff-8e0c-fe61a1ab3ebb")
 	)
 	(wire
 		(pts
@@ -14426,6 +14712,16 @@
 			(type default)
 		)
 		(uuid "67d8033d-9077-4360-a9e7-261c1686dcb2")
+	)
+	(wire
+		(pts
+			(xy 241.3 144.78) (xy 255.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a025856-8a6b-4c71-9418-b88f89848b3f")
 	)
 	(wire
 		(pts
@@ -14619,6 +14915,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 152.4) (xy 247.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828d00fc-f9b8-4f65-a259-db2f29ad4984")
+	)
+	(wire
+		(pts
 			(xy 348.615 64.77) (xy 373.38 64.77)
 		)
 		(stroke
@@ -14646,6 +14952,16 @@
 			(type default)
 		)
 		(uuid "86a740fa-4fc0-4e93-9deb-08ab29bf5ad0")
+	)
+	(wire
+		(pts
+			(xy 237.49 152.4) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8865ee1d-d856-4a22-97e7-e8b2fe910f3a")
 	)
 	(wire
 		(pts
@@ -14929,6 +15245,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 144.78) (xy 223.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48bf40b-2595-4fe0-a6d4-ba9fab3d2e67")
+	)
+	(wire
+		(pts
 			(xy 154.94 100.33) (xy 161.29 100.33)
 		)
 		(stroke
@@ -15036,6 +15362,16 @@
 			(type default)
 		)
 		(uuid "daf24589-c54c-456a-9fcd-b5240c1b310d")
+	)
+	(wire
+		(pts
+			(xy 255.27 147.32) (xy 247.65 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1fa541-7f45-4aaf-9ed3-c1b6a32546bc")
 	)
 	(wire
 		(pts
@@ -15196,6 +15532,16 @@
 			(type default)
 		)
 		(uuid "fb5fbec6-344f-4538-a95f-59e96789623a")
+	)
+	(wire
+		(pts
+			(xy 223.52 144.78) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc13d28d-5a0b-4592-a4cd-d8f396ec5222")
 	)
 	(wire
 		(pts
@@ -17034,6 +17380,86 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 152.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02d890fe-f621-4933-95ff-4801c15deeb8")
+		(property "Reference" "R37"
+			(at 233.68 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 233.68 150.622 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38614a71-bacd-4f58-abad-e809d6c90f16")
+		)
+		(pin "2"
+			(uuid "0528ebdc-d6a6-453f-ad62-9ab967a97674")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "R37")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -22889,6 +23315,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 223.52 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8c1e5ad3-a3b7-47f4-97e4-073b4fa9ab9f")
+		(property "Reference" "C92"
+			(at 227.33 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 227.33 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 222.5548 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49df87e5-082b-4c3a-9bfa-bc468c7baa11")
+		)
+		(pin "2"
+			(uuid "eb03746f-4e48-4d20-9fa4-25008611df6d")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 57.15 91.44 270)
 		(unit 1)
@@ -23689,6 +24197,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 214.63 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a95d8b7d-dde4-4def-80b5-644b76cb981c")
+		(property "Reference" "AE1"
+			(at 213.995 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 213.995 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
+			(at 212.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 214.63 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9298384f-628c-4444-bd6e-f68286665b6a")
+		)
+		(pin "1"
+			(uuid "9652480b-5632-472b-832f-6f2088d69f02")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 229.87 193.04 270)
 		(unit 1)
@@ -24081,6 +24669,88 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b4dc910f-8c66-4171-ad36-d94a37da3525")
+		(property "Reference" "C93"
+			(at 245.11 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 245.11 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 240.3348 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a33f21a-081f-4f64-a1cf-59a511c317a3")
+		)
+		(pin "2"
+			(uuid "5193678e-2b96-47c3-a971-4c9e92194498")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "C93")
 					(unit 1)
 				)
 			)
