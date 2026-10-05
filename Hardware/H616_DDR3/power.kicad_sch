@@ -16150,9 +16150,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm_ThermalVias"
 			(at 80.01 40.64 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
