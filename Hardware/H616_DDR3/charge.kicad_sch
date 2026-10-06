@@ -2683,19 +2683,18 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 4.318 2.032 0)
+			(property "Reference" "SW1"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "CK_KMS2xxG"
-				(at 0 4.572 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2848,24 +2847,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "CK_KMS2xxG_1_1"
 				(rectangle
@@ -2880,9 +2861,45 @@
 					)
 				)
 				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
-					(name "B"
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3065,12 +3082,6 @@
 		(uuid "5c217810-7460-4a07-8824-2ff2bc4f6c0c")
 	)
 	(junction
-		(at 88.9 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f9e0d64-fcf9-491b-94c0-3fdd9f3b2afa")
-	)
-	(junction
 		(at 101.6 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3099,6 +3110,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2e985d2-3f7d-4d0b-85f3-edc0afe4e858")
+	)
+	(junction
+		(at 88.9 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b791d5d9-10be-4718-b378-41db9a472656")
 	)
 	(junction
 		(at 101.6 52.07)
@@ -3396,7 +3413,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 97.79) (xy 76.2 97.79)
+			(xy 64.77 97.79) (xy 68.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3513,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 97.79) (xy 88.9 97.79)
+			(xy 78.74 97.79) (xy 88.9 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4518,7 +4535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 97.79 270)
+		(at 64.77 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4529,7 +4546,7 @@
 		(fields_autoplaced yes)
 		(uuid "1320cd72-6014-41e6-bb81-37589d96810b")
 		(property "Reference" "#PWR0105"
-			(at 64.77 97.79 0)
+			(at 58.42 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 97.7899 90)
+			(at 60.96 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4551,7 +4568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 97.79 0)
+			(at 64.77 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 97.79 0)
+			(at 64.77 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4573,7 +4590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 97.79 0)
+			(at 64.77 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,7 +6603,7 @@
 	)
 	(symbol
 		(lib_id "Switch:CK_KMS2xxG")
-		(at 81.28 97.79 0)
+		(at 73.66 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6597,7 +6614,7 @@
 		(fields_autoplaced yes)
 		(uuid "d31af231-9423-41b1-8fd7-eb642fa7a066")
 		(property "Reference" "SW1"
-			(at 81.28 90.17 0)
+			(at 73.66 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6607,7 +6624,7 @@
 			)
 		)
 		(property "Value" "CK_KMS2xxG"
-			(at 81.28 92.71 0)
+			(at 73.66 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6616,8 +6633,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
-			(at 81.28 92.71 0)
+		(property "Footprint" "bodya:button 3x6x3.5mm"
+			(at 73.66 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6628,7 +6645,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-			(at 81.28 92.71 0)
+			(at 73.66 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6639,7 +6656,7 @@
 			)
 		)
 		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-			(at 81.28 97.79 0)
+			(at 73.66 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6652,11 +6669,14 @@
 		(pin "1"
 			(uuid "d9717410-6225-44c6-be77-50f100295004")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "0680613d-607c-4cd3-b4a0-5b5c061975bc")
 		)
 		(pin "SH"
 			(uuid "da6576e8-2699-481e-b12b-5712df94caeb")
+		)
+		(pin "SH"
+			(uuid "824972f7-14ab-4eb0-8d52-d5deb1c22c47")
 		)
 		(instances
 			(project "H616_devboard"
