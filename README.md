@@ -14,7 +14,7 @@ Unlike standard commercial H616 boards (Orange Pi, Banana Pi, etc.) that require
 
 ---
 
-## 📐 Board Layout & Architecture
+##  Board Layout & Architecture
 
 The PCB has been floorplanned to strictly separate high-speed digital buses, power conversion, and radio frequency:
 
