@@ -32,7 +32,7 @@ The PCB has been floorplanned to strictly separate high-speed digital buses, pow
 
 ---
 
-## 🏭 JLCPCB 8-Layer Stackup & Impedance
+##  JLCPCB 8-Layer Stackup & Impedance
 
 The board is designed around JLCPCB's standard 8-layer stackup **`JLC08101H-1080`** with a finished thickness of **1.02 mm ±10%**.
 
@@ -65,7 +65,7 @@ The board is designed around JLCPCB's standard 8-layer stackup **`JLC08101H-1080
 
 ---
 
-## ⚡ Power System (AXP305 + SW6206)
+##  Power System (AXP305 + SW6206)
 
 The board features a dual-PMIC architecture:
 
@@ -90,7 +90,7 @@ The board features a dual-PMIC architecture:
 
 ---
 
-## 🧠 RAM (DDR3 16-bit)
+##  RAM (DDR3 16-bit)
 
 The H616 supports 16-bit or 32-bit DRAM memory interfaces. According to the JEDEC standard, a single discrete DDR3 chip is 16-bit wide, so a single-chip design uses a 16-bit interface. Compatible 96-ball FBGA chips include:
 
@@ -120,7 +120,7 @@ The H616 supports 16-bit or 32-bit DRAM memory interfaces. According to the JEDE
 
 ---
 
-## 📡 Wireless & Antenna
+##  Wireless & Antenna
 
 * **Module:** **Ampak AP6256** (or pin-compatible Realtek RTL8822CS / BCM43456) in standard 12×12 mm LGA-44 package salvaged directly from TV box donor boards.
 * **Interfaces:**
@@ -131,7 +131,7 @@ The H616 supports 16-bit or 32-bit DRAM memory interfaces. According to the JEDE
 
 ---
 
-## 🎸 Audio & Expansion Header (I2S & I2C)
+##  Audio & Expansion Header (I2S & I2C)
 
 The board routes the H616 hardware **Audio HUB I2S3** controller and **I2C0** bus directly to the 40-pin header:
 
@@ -145,7 +145,7 @@ This allows building low-latency DSP daughterboards, such as a **Neural Amp Mode
 
 ---
 
-## 🛠️ Hand Soldering, Flux & Paste
+##  Hand Soldering, Flux & Paste
 
 For double-sided manual assembly with a hot plate and hot air rework station:
 
@@ -154,9 +154,9 @@ For double-sided manual assembly with a hot plate and hot air rework station:
 
 ---
 
-## 📖 Documentation & Soldering Warning
+##  Documentation & Soldering Warning
 
-[***Mandatory Reading Before Soldering BGA by Hand***](https://csbible.com/wp-content/uploads/2018/03/CSB_Pew_Bible_2nd_Printing.pdf) 🙏
+[***Mandatory Reading Before Soldering BGA by Hand***](https://csbible.com/wp-content/uploads/2018/03/CSB_Pew_Bible_2nd_Printing.pdf) 
 
 <p align="right"> 
   <img src="https://gitviews.com/repo/Bogdan8266/h616-board.svg" alt="Views">
