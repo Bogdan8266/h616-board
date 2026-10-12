@@ -49570,6 +49570,22 @@
 		(net "/IO1/SDC0_D2")
 		(uuid "6f8f49cf-a309-4af0-86c2-4537145f79a0")
 	)
+	(segment
+		(start 96.14 56.86)
+		(end 97 56)
+		(width 0.1)
+		(layer "F.Cu")
+		(net "VCC_DRAM")
+		(uuid "b98f12fa-809f-4571-a75b-9f256e45f3ac")
+	)
+	(segment
+		(start 95.43 56.86)
+		(end 96.14 56.86)
+		(width 0.1)
+		(layer "F.Cu")
+		(net "VCC_DRAM")
+		(uuid "d1528334-8135-4a57-9015-4c2c22e0ce9d")
+	)
 	(via
 		(at 111.170001 58.28)
 		(size 0.3)
