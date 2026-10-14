@@ -161,7 +161,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.075,
         "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -567,7 +567,7 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0922,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3_SINGLE",
         "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
@@ -583,7 +583,7 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0922,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3_SINGLE",
         "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
@@ -944,6 +944,49 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 107200
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 107200
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 7100000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 106400
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 7100000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 106400
+          }
+        ],
+        "profile_name": "DDR3_SINGLE",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 7000000
+      }
+    ]
   }
 }
