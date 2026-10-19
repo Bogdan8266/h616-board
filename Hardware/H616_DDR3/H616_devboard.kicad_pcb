@@ -54612,6 +54612,22 @@
 		(net "/DRAM/SDQ25")
 		(uuid "0cf575f6-55ac-42db-a76e-f05d0dfe6ae6")
 	)
+	(segment
+		(start 95.432813 57.755898)
+		(end 96.555898 57.755898)
+		(width 0.0922)
+		(layer "F.Cu")
+		(net "/DRAM/SCKE1")
+		(uuid "007df690-4364-4aeb-ae58-92663df5d763")
+	)
+	(segment
+		(start 96.555898 57.755898)
+		(end 96.75 57.95)
+		(width 0.0922)
+		(layer "F.Cu")
+		(net "/DRAM/SCKE1")
+		(uuid "74388070-3d63-4272-9301-6bb06b82ce5e")
+	)
 	(via
 		(at 95.432813 57.755898)
 		(size 0.3)
