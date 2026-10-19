@@ -54621,12 +54621,28 @@
 		(uuid "007df690-4364-4aeb-ae58-92663df5d763")
 	)
 	(segment
+		(start 96.75 57.95)
+		(end 97.8 57.95)
+		(width 0.0922)
+		(layer "F.Cu")
+		(net "/DRAM/SCKE1")
+		(uuid "01838534-c811-4147-b966-dab49d8e0f63")
+	)
+	(segment
 		(start 96.555898 57.755898)
 		(end 96.75 57.95)
 		(width 0.0922)
 		(layer "F.Cu")
 		(net "/DRAM/SCKE1")
 		(uuid "74388070-3d63-4272-9301-6bb06b82ce5e")
+	)
+	(segment
+		(start 97.8 57.95)
+		(end 97.9 57.85)
+		(width 0.0922)
+		(layer "F.Cu")
+		(net "/DRAM/SCKE1")
+		(uuid "b9a72bf4-5865-40fe-a876-6cb713f50393")
 	)
 	(via
 		(at 95.432813 57.755898)
