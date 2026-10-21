@@ -54629,12 +54629,12 @@
 		(uuid "01838534-c811-4147-b966-dab49d8e0f63")
 	)
 	(segment
-		(start 97.875 57.875)
-		(end 99.425 57.875)
+		(start 99.425 57.875)
+		(end 101.6 60.05)
 		(width 0.0922)
 		(layer "F.Cu")
 		(net "/DRAM/SCKE1")
-		(uuid "22b2fdb8-9b70-49e1-b115-57192caa3452")
+		(uuid "39baab11-440a-46df-a2af-d8fecf5191c6")
 	)
 	(segment
 		(start 96.555898 57.755898)
@@ -54643,6 +54643,14 @@
 		(layer "F.Cu")
 		(net "/DRAM/SCKE1")
 		(uuid "74388070-3d63-4272-9301-6bb06b82ce5e")
+	)
+	(segment
+		(start 97.875 57.875)
+		(end 99.425 57.875)
+		(width 0.0922)
+		(layer "F.Cu")
+		(net "/DRAM/SCKE1")
+		(uuid "918611cf-407c-458b-a13b-7586020d9c84")
 	)
 	(segment
 		(start 97.8 57.95)
@@ -54654,11 +54662,11 @@
 	)
 	(segment
 		(start 101.6 60.05)
-		(end 101.65 60.05)
+		(end 103.25 60.05)
 		(width 0.0922)
 		(layer "F.Cu")
 		(net "/DRAM/SCKE1")
-		(uuid "b2a3b1d4-b815-43e8-89ab-25d5bbe85f4f")
+		(uuid "a53aee2b-3b10-4157-bcac-eb636e74e954")
 	)
 	(segment
 		(start 97.875 57.875)
@@ -54669,12 +54677,12 @@
 		(uuid "b9a72bf4-5865-40fe-a876-6cb713f50393")
 	)
 	(segment
-		(start 99.425 57.875)
-		(end 101.6 60.05)
+		(start 103.25 60.05)
+		(end 103.3 60.1)
 		(width 0.0922)
 		(layer "F.Cu")
 		(net "/DRAM/SCKE1")
-		(uuid "ee6ded95-873a-4229-92bc-7a7257bebc72")
+		(uuid "e850d343-45f3-47dd-836c-5a0cea2769c2")
 	)
 	(via
 		(at 95.432813 57.755898)
