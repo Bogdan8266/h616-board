@@ -36,7 +36,7 @@
 				)
 			)
 			(property "Footprint" "HDR:DIP-30_100"
-				(at 0 0 0)
+				(at -0.254 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,7 +58,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x40, script generated"
-				(at 0 0 0)
+				(at -0.254 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -674,116 +674,6 @@
 				(rectangle
 					(start 4.6736 25.527)
 					(end 3.81 25.273)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 22.987)
-					(end 3.81 22.733)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 20.447)
-					(end 3.81 20.193)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 17.907)
-					(end 3.81 17.653)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 15.367)
-					(end 3.81 15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 12.827)
-					(end 3.81 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 10.287)
-					(end 3.81 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 7.747)
-					(end 3.81 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 5.207)
-					(end 3.81 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 2.667)
-					(end 3.81 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.6736 0.127)
-					(end 3.81 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -20933,7 +20823,7 @@
 			)
 		)
 		(property "Footprint" "HDR:DIP-30_100"
-			(at 377.19 152.4 0)
+			(at 376.936 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20955,7 +20845,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x40, script generated"
-			(at 377.19 152.4 0)
+			(at 376.936 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
