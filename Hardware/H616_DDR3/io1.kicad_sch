@@ -17355,6 +17355,84 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 368.3 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "043ed183-0fa0-43b0-a1bf-37e635d6157a")
+		(property "Reference" "#PWR0183"
+			(at 368.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 371.094 94.488 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad80ab9e-30a5-4d0e-807e-9d22ada7890e")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 102.87 102.87 270)
 		(unit 1)
 		(body_style 1)
@@ -22893,7 +22971,7 @@
 		(fields_autoplaced yes)
 		(uuid "84b1d5f4-2154-4b20-9e2e-1f4bcf3021b9")
 		(property "Reference" "R14"
-			(at 370.84 85.725 0)
+			(at 370.84 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22903,8 +22981,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 370.84 88.265 0)
+		(property "Value" "10k"
+			(at 370.84 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27235,84 +27313,6 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 368.3 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebdf2ecc-a600-4dc3-aa9f-026046ad4272")
-		(property "Reference" "#PWR058"
-			(at 368.3 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 368.3 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34f09424-74eb-4089-85b0-d7df177ff397")
-		)
-		(instances
-			(project "H616_devboard"
-				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
