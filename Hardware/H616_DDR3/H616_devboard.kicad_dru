@@ -1,24 +1,116 @@
-(version 1)
-(rule ADDR_LEN
-    (condition "A.NetClass == 'DDR3_ADDR'")
-    (constraint skew (max 6.35mm)))
-
-(rule L_BYTE_LANE_LEN
-    (condition "A.NetClass == 'DDR3_DATA_LB'")
-    (constraint skew (max 2.54mm)))
-
-(rule H_BYTE_LANE_LEN
-    (condition "A.NetClass == 'DDR3_DATA_HB'")
-    (constraint skew (max 2.54mm)))
-
-(rule INTER_CLASS_1
-	(constraint skew (max 4.445mm))
-	(condition "A.NetClass == 'DDR3_ADDR' || B.NetClass == 'DDR3_DATA_LB"))
-    
-(rule INTER_CLASS_2
-	(constraint skew (max 4.445mm))
-	(condition "A.NetClass == 'DDR3_ADDR' || B.NetClass == 'DDR3_DATA_HB"))
-
-(rule INTER_CLASS_3
-	(constraint skew (max 3.175mm))
-	(condition "A.NetClass == 'DDR3_DATA_LB' || B.NetClass == 'DDR3_DATA_HB"))
+(version 1)                                                                                                                                 
+                                                                                                                                                
+    # 1. ІМПЕДАНС 50 Ом Single-Ended (DQ, SDQM, ADDR, CMD/CTRL)                                                                                 
+    (rule "DDR3_DATA_50_OHM_OUTER"                                                                                                              
+        (layer outer)                                                                                                                           
+        (condition "A.NetClass == 'DDR3_DATA_LB' || A.NetClass == 'DDR3_DATA_HB'")                                                              
+        (constraint track_width (min 0.1070mm) (opt 0.1072mm) (max 0.1075mm)))                                                                  
+                                                                                                                                                
+    (rule "DDR3_ADDR_50_OHM_OUTER"                                                                                                              
+        (layer outer)                                                                                                                           
+        (condition "A.NetClass == 'DDR3_ADDR' || A.NetClass == 'DDR3_OTHER'")                                                                   
+        (constraint track_width (min 0.1070mm) (opt 0.1072mm) (max 0.1075mm)))                                                                  
+                                                                                                                                                
+    (rule "DDR3_DATA_50_OHM_IN2"                                                                                                                
+        (layer "In2.Cu")                                                                                                                        
+        (condition "A.NetClass == 'DDR3_DATA_LB' || A.NetClass == 'DDR3_DATA_HB'")                                                              
+        (constraint track_width (min 0.1060mm) (opt 0.1064mm) (max 0.1068mm)))                                                                  
+                                                                                                                                                
+    (rule "DDR3_ADDR_50_OHM_IN2"                                                                                                                
+        (layer "In2.Cu")                                                                                                                        
+        (condition "A.NetClass == 'DDR3_ADDR' || A.NetClass == 'DDR3_OTHER'")                                                                   
+        (constraint track_width (min 0.1060mm) (opt 0.1064mm) (max 0.1068mm)))                                                                  
+                                                                                                                                                
+    (rule "DDR3_DATA_50_OHM_IN5"                                                                                                                
+        (layer "In5.Cu")                                                                                                                        
+        (condition "A.NetClass == 'DDR3_DATA_LB' || A.NetClass == 'DDR3_DATA_HB'")                                                              
+        (constraint track_width (min 0.1060mm) (opt 0.1064mm) (max 0.1068mm)))                                                                  
+                                                                                                                                                
+    (rule "DDR3_ADDR_50_OHM_IN5"                                                                                                                
+        (layer "In5.Cu")                                                                                                                        
+        (condition "A.NetClass == 'DDR3_ADDR' || A.NetClass == 'DDR3_OTHER'")                                                                   
+        (constraint track_width (min 0.1060mm) (opt 0.1064mm) (max 0.1068mm)))                                                                  
+                                                                                                                                                
+    # 2. ІМПЕДАНС 100 Ом Differential (SCKP/N, SDQS0P/N, SDQS1P/N)                                                                              
+    (rule "DDR3_100_OHM_DIFF_OUTER"                                                                                                             
+        (layer outer)                                                                                                                           
+        (condition "A.NetClass == 'DDR3_DIFF'")                                                                                                 
+        (constraint track_width (min 0.1018mm) (opt 0.1021mm) (max 0.1025mm))                                                                   
+        (constraint diff_pair_gap (min 0.3290mm) (opt 0.3299mm) (max 0.3310mm)))                                                                
+                                                                                                                                                
+    (rule "DDR3_100_OHM_DIFF_IN2"                                                                                                               
+        (layer "In2.Cu")                                                                                                                        
+        (condition "A.NetClass == 'DDR3_DIFF'")                                                                                                 
+        (constraint track_width (min 0.1025mm) (opt 0.1029mm) (max 0.1033mm))                                                                   
+        (constraint diff_pair_gap (min 0.3090mm) (opt 0.3099mm) (max 0.3110mm)))                                                                
+                                                                                                                                                
+    (rule "DDR3_100_OHM_DIFF_IN5"                                                                                                               
+        (layer "In5.Cu")                                                                                                                        
+        (condition "A.NetClass == 'DDR3_DIFF'")                                                                                                 
+        (constraint track_width (min 0.1025mm) (opt 0.1029mm) (max 0.1033mm))                                                                   
+        (constraint diff_pair_gap (min 0.3090mm) (opt 0.3099mm) (max 0.3110mm)))                                                                
+                                                                                                                                                
+    # 3. ІМПЕДАНС 90 Ом Differential (USB: D+ / D-)                                                                                             
+    (rule "USB_90_OHM_DIFF_OUTER"                                                                                                               
+        (layer outer)                                                                                                                           
+        (condition "A.NetClass == 'USB'")                                                                                                       
+        (constraint track_width (min 0.1018mm) (opt 0.1021mm) (max 0.1025mm))                                                                   
+        (constraint diff_pair_gap (min 0.1390mm) (opt 0.1400mm) (max 0.1410mm)))                                                                
+                                                                                                                                                
+    (rule "USB_90_OHM_DIFF_IN2"                                                                                                                 
+        (layer "In2.Cu")                                                                                                                        
+        (condition "A.NetClass == 'USB'")                                                                                                       
+        (constraint track_width (min 0.1042mm) (opt 0.1046mm) (max 0.1050mm))                                                                   
+        (constraint diff_pair_gap (min 0.1290mm) (opt 0.1300mm) (max 0.1310mm)))                                                                
+                                                                                                                                                
+    (rule "USB_90_OHM_DIFF_IN5"                                                                                                                 
+        (layer "In5.Cu")                                                                                                                        
+        (condition "A.NetClass == 'USB'")                                                                                                       
+        (constraint track_width (min 0.1042mm) (opt 0.1046mm) (max 0.1050mm))                                                                   
+        (constraint diff_pair_gap (min 0.1290mm) (opt 0.1300mm) (max 0.1310mm)))                                                                
+                                                                                                                                                
+    # 4. ЗАХИСТ ВІД ТРАСУВАННЯ DDR3 НА ОПОРНИХ ШАРАХ (In1, In3, In4, In6)                                                                       
+    (rule "DDR3_DISALLOW_IN1_REF"                                                                                                               
+        (layer "In1.Cu")                                                                                                                        
+        (condition "A.NetName == '/DRAM/*'")                                                                                                    
+        (constraint disallow track))                                                                                                            
+                                                                                                                                                
+    (rule "DDR3_DISALLOW_IN3_REF"                                                                                                               
+        (layer "In3.Cu")                                                                                                                        
+        (condition "A.NetName == '/DRAM/*'")                                                                                                    
+        (constraint disallow track))                                                                                                            
+                                                                                                                                                
+    (rule "DDR3_DISALLOW_IN4_REF"                                                                                                               
+        (layer "In4.Cu")
+        (condition "A.NetName == '/DRAM/*'")
+        (constraint disallow track))
+  
+    (rule "DDR3_DISALLOW_IN6_REF"
+        (layer "In6.Cu")
+        (condition "A.NetName == '/DRAM/*'")
+        (constraint disallow track))
+  
+    # 5. ВИРІВНЮВАННЯ ЗАТРИМОК DDR3 (у пікосекундах ps)
+    (rule "DDR3_DIFF_SKEW_CLK"
+        (condition "A.NetName == '/DRAM/SCK*'")
+        (constraint skew (max 1.5ps)))
+  
+    (rule "DDR3_DIFF_SKEW_DQS0"
+        (condition "A.NetName == '/DRAM/SDQS0*'")
+        (constraint skew (max 1.5ps)))
+  
+    (rule "DDR3_DIFF_SKEW_DQS1"
+        (condition "A.NetName == '/DRAM/SDQS1*'")
+        (constraint skew (max 1.5ps)))
+  
+    (rule "DDR3_BYTE0_LANE_SKEW"
+        (condition "A.NetClass == 'DDR3_DATA_LB' || A.NetName == '/DRAM/SDQ*0*'")
+        (constraint skew (max 12ps)))
+  
+    (rule "DDR3_BYTE1_LANE_SKEW"
+        (condition "A.NetClass == 'DDR3_DATA_HB' || A.NetName == '/DRAM/SDQ*1*'")
+        (constraint skew (max 12ps)))
+  
+    (rule "DDR3_ADDR_CMD_CTRL_SKEW"
+        (condition "A.NetClass == 'DDR3_ADDR' || A.NetName == '/DRAM/SCK*'")
+        (constraint skew (max 35ps)))

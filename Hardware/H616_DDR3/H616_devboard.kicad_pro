@@ -602,7 +602,7 @@
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0902,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3_DIFF",
         "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
@@ -620,7 +620,7 @@
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.0922,
-        "tuning_profile": "",
+        "tuning_profile": "DDR3_SINGLE",
         "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
@@ -663,10 +663,6 @@
         "pattern": "*/DRAM/SDQS*"
       },
       {
-        "netclass": "DDR3_DATA_HB",
-        "pattern": "*/DRAM/DQ[1]|[0-9]"
-      },
-      {
         "netclass": "DDR3_OTHER",
         "pattern": "*/DRAM/SBA*"
       },
@@ -700,11 +696,7 @@
       },
       {
         "netclass": "DDR3_DATA_HB",
-        "pattern": "*/DRAM/DQ9*"
-      },
-      {
-        "netclass": "DDR3_DATA_LB",
-        "pattern": "*/DRAM/DQ?*"
+        "pattern": "*/DRAM/DQ1?"
       },
       {
         "netclass": "USB",
@@ -715,8 +707,24 @@
         "pattern": "*D-*"
       },
       {
-        "netclass": "Default",
-        "pattern": "*/DRAM/DQ8*"
+        "netclass": "DDR3_DATA_HB",
+        "pattern": "*/DRAM/DQ8"
+      },
+      {
+        "netclass": "DDR3_DATA_HB",
+        "pattern": "*/DRAM/DQ9"
+      },
+      {
+        "netclass": "DDR3_DATA_LB",
+        "pattern": "^.*/DRAM/DQ[0-7]$"
+      },
+      {
+        "netclass": "DDR3_DATA_LB",
+        "pattern": "*/DRAM/SDQM0"
+      },
+      {
+        "netclass": "DDR3_DATA_HB",
+        "pattern": "*/DRAM/SDQM1"
       }
     ]
   },
@@ -985,6 +993,48 @@
         "profile_name": "DDR3_SINGLE",
         "target_impedance": 50.0,
         "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 7000000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6000000,
+            "diff_pair_gap": 329900,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 102100
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6000000,
+            "diff_pair_gap": 329900,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 102100
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 7100000,
+            "diff_pair_gap": 309900,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 102900
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 7100000,
+            "diff_pair_gap": 309900,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 102900
+          }
+        ],
+        "profile_name": "DDR3_DIFF",
+        "target_impedance": 100.0,
+        "type": 1,
         "via_overrides": [],
         "via_prop_delay": 7000000
       }
