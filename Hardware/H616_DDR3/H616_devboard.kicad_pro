@@ -724,11 +724,11 @@
         "pattern": "^.*/DRAM/DQ[0-7]$"
       },
       {
-        "netclass": "DDR3_DATA_LB",
+        "netclass": "DDR3_DATA_HB",
         "pattern": "*/DRAM/SDQM0"
       },
       {
-        "netclass": "DDR3_DATA_HB",
+        "netclass": "DDR3_DATA_LB",
         "pattern": "*/DRAM/SDQM1"
       }
     ]
