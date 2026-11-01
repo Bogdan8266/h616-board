@@ -21033,6 +21033,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59c82ff9-33a5-4c29-9c1d-da92adcd3ffa")
+		(property "Reference" "#PWR0186"
+			(at 24.13 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 21.336 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "141048a1-6d4d-4f83-a44d-510d0b1ec178")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 305.435 82.55 0)
 		(unit 1)
@@ -21183,6 +21261,84 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da313c4-46f7-4cae-b4ca-1ffb76650b77")
+		(property "Reference" "#PWR0185"
+			(at 29.21 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "217aa95f-1e95-4e0c-99de-3de01065a2c8")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -21500,6 +21656,84 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "625bc220-173f-4628-a09b-827f6ca2abbe")
+		(property "Reference" "#PWR0189"
+			(at 35.56 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c629586a-413f-41fc-8923-f034651b9e2b")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -22049,6 +22283,84 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 29.21 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79011616-897a-4e25-bec2-0cd33a3a6a22")
+		(property "Reference" "#PWR0184"
+			(at 29.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 26.67 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f71079f-225b-4475-8ff7-1c121f89e835")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -23123,6 +23435,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.13 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b94b4e-14c0-4a51-a5b7-7260741cafd9")
+		(property "Reference" "C95"
+			(at 27.94 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 27.94 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 25.0952 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b734ffd-b73b-45a9-838a-4e8c814f8e12")
+		)
+		(pin "2"
+			(uuid "f44b9814-4514-40dc-87b0-d9c092ddc27d")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 102.87 80.01 90)
@@ -23437,6 +23831,84 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 35.56 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "933d188a-4bf9-4250-944d-866e6952b589")
+		(property "Reference" "#PWR0188"
+			(at 35.56 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 32.766 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bf97621-5a84-4b09-8fec-53612b436b5e")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -24807,6 +25279,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 35.56 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc61a83e-e81d-4efd-bce8-3a7c1b733b98")
+		(property "Reference" "C96"
+			(at 39.37 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 39.37 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 36.5252 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02192fb5-15ab-4dc8-bf9c-a6760430b041")
+		)
+		(pin "2"
+			(uuid "f1cbcb45-751b-4011-8d8c-b94db8493df2")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 57.15 118.11 270)
 		(unit 1)
@@ -25434,6 +25988,84 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe10019-664d-47e1-8667-07ee6c05df3b")
+		(property "Reference" "#PWR0187"
+			(at 24.13 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b95d6c26-9330-4eed-92d6-b69e80bbd7f6")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -27626,6 +28258,88 @@
 			(project "H616_devboard"
 				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 29.21 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4900c16-60dd-4a73-8289-3a8a961aeb51")
+		(property "Reference" "C94"
+			(at 33.02 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 33.02 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 30.1752 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0a3bd13-dee6-4527-9cfc-fd4c0391e3d4")
+		)
+		(pin "2"
+			(uuid "835ad700-85d5-4600-88f4-8f5634512e30")
+		)
+		(instances
+			(project "H616_devboard"
+				(path "/44f68964-8d75-4db0-b784-705712e148bc/2e182087-17c9-4f42-b165-52dadf9ce5a4"
+					(reference "C94")
 					(unit 1)
 				)
 			)

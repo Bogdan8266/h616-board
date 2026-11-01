@@ -3941,7 +3941,7 @@
 		)
 		(uuid "19b85990-3a3c-489d-a061-df61cd2e102a")
 	)
-	(label "DPC"
+	(label "DC+"
 		(at 248.92 142.24 180)
 		(effects
 			(font
@@ -3971,7 +3971,7 @@
 		)
 		(uuid "323b4e42-0185-4039-a15e-47bd954150f5")
 	)
-	(label "DPC"
+	(label "DC+"
 		(at 140.97 66.04 0)
 		(effects
 			(font
@@ -4011,7 +4011,7 @@
 		)
 		(uuid "6f1d7a02-dcb8-4053-a0f1-70167be8dced")
 	)
-	(label "DMC"
+	(label "DC-"
 		(at 140.97 68.58 0)
 		(effects
 			(font
@@ -4081,7 +4081,7 @@
 		)
 		(uuid "a4d59b34-ccd7-4151-a405-3a0a2849e815")
 	)
-	(label "DPC"
+	(label "DC+"
 		(at 248.92 139.7 180)
 		(effects
 			(font
@@ -4141,7 +4141,7 @@
 		)
 		(uuid "c1a9b19d-57db-4ff5-9626-45b0436b1121")
 	)
-	(label "DMC"
+	(label "DC-"
 		(at 248.92 134.62 180)
 		(effects
 			(font
@@ -4151,7 +4151,7 @@
 		)
 		(uuid "c4f89a01-b13a-4db8-b1c3-34e786ec00f1")
 	)
-	(label "DMC"
+	(label "DC-"
 		(at 248.92 137.16 180)
 		(effects
 			(font
