@@ -118,3 +118,11 @@
         (condition "A.NetClass == 'DDR3_ADDR' || A.NetName == '/DRAM/SCK*' || A.NetName == '/DRAM/SBA*' || A.NetName == '/DRAM/SRAS' || A.NetName == '/DRAM/SCAS' || A.NetName == '/DRAM/SWE' || A.NetName == '/DRAM/SCS*' || A.NetName == '/DRAM/SCKE*' || A.NetName == '/DRAM/SODT*'")
         (constraint skew (max 35ps)))
 
+	(rule "eMMC_Skew_Tolerance"
+    (constraint skew (max 50ps))
+    (condition "A.NetClass == 'EMMC' || A.NetClass == 'EMMC and Default'"))
+
+
+
+
+
