@@ -1,0 +1,923 @@
+11-14 22:12:53 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 238:Plugin executed on: 'linux'
+11-14 22:12:53 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 239:Plugin executed with python version: '3.14.10 (main, Oct 26 2026, 00:00:00) [GCC 16.2.1 20260819 (Red Hat 16.2.1-2)]'
+11-14 22:12:53 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 240:KiCad build version: 10.0.7-1.fc44
+11-14 22:12:53 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 241:Plugin version: 1.0.15
+11-14 22:12:53 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 246:Screen sizes: [wx.Size(1920, 1080)]
+11-14 22:12:53 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 253:Dialog size: wx.Size(213, 81)
+11-14 22:12:53 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 255:Char size: 19
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 30:Starting to archive 3D models
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C33
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C22
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R25
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C91
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C29
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R30
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U4
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-484_23.0x23.0mm_Layout22x22_P1.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-484_23.0x23.0mm_Layout22x22_P1.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-484_23.0x23.0mm_Layout22x22_P1.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SoC_H616.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SoC_H616.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R26
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R21
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C26
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C37
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U7
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/AP6256.wrl
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/AP6256.wrl
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L2
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: H1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: H2
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: H1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J5
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x14_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x14_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x14_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_2x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_2x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_2x15_P2.54mm_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R37
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R32
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: H4
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J3
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L5
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_Changjiang_FNR252010S.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_Changjiang_FNR252010S.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_Changjiang_FNR252010S.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: Q1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C93
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D5
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_RGB_1210.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_RGB_1210.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_RGB_1210.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R27
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C78
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R22
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C35
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C72
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D2
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L3
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L6
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U6
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Analog_BGA-165_11.9x16mm_Layout11x15_P1.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Analog_BGA-165_11.9x16mm_Layout11x15_P1.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Analog_BGA-165_11.9x16mm_Layout11x15_P1.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J2
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R34
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R18
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C80
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C89
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: AE1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Molex_MCRF_73412-0110_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Molex_MCRF_73412-0110_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Molex_MCRF_73412-0110_Vertical.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP8
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C76
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C36
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D3
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C90
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SW1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D4
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L4
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R33
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U3
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C79
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J4
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/MicroSD_DM3AT.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/MicroSD_DM3AT.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C30
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U2
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C73
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C92
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C23
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C77
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R29
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C27
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U9
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C67
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: Y1
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C4
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R36
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R8
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C42
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C57
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R14
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C41
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C65
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C53
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C11
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U10
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R35
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C31
+11-14 22:12:59 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C63
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R28
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C47
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C7
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R15
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R3
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C51
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: Q2
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R19
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C85
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C75
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C84
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R7
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C55
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C49
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C88
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R16
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C74
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C12
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R1
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C34
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C45
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U11
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C20
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C32
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C95
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C54
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C43
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C17
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R31
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C52
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R10
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C87
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: RN2
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R5
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C83
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C25
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R23
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C15
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C60
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C16
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C86
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C21
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C44
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U8
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C96
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C28
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R6
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C10
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C68
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C69
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C24
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C62
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C66
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C46
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C71
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C48
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C70
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C82
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R17
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C58
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C50
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: RN3
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C94
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C38
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C5
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R2
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C3
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R4
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C81
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R20
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C61
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C14
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R11
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C9
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: Q3
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C59
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R24
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C19
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C39
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C13
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C8
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C64
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C6
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C56
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R9
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: RN1
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C40
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C18
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step
+11-14 22:13:00 com_github_MitjaNemec_Archive3DModels.archive_3d_models 164:Did not succeed to copy 3D models!
+('C33', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C22', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R25', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C91', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('L1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step')
+('C29', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R30', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('U4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step')
+('U4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm.step')
+('U1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-484_23.0x23.0mm_Layout22x22_P1.0mm.step')
+('R26', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('R21', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C26', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C37', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('L2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step')
+('J5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step')
+('J5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x15_P2.54mm_Vertical.step')
+('J5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_1x14_P2.54mm_Vertical.step')
+('J5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/PinHeader_2x15_P2.54mm_Vertical.step')
+('R37', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('R32', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('J3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step')
+('J3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step')
+('L5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step')
+('L5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_Changjiang_FNR252010S.step')
+('Q1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step')
+('Q1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step')
+('C93', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('D5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.step')
+('D5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount.step')
+('D5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_RGB_1210.step')
+('D5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm.step')
+('R27', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C78', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R22', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C35', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C72', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('D2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step')
+('L3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step')
+('L6', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step')
+('U6', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/Analog_BGA-165_11.9x16mm_Layout11x15_P1.0mm.step')
+('U6', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step')
+('J2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step')
+('J2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/HDMI_Micro-D_Molex_46765-1xxx.step')
+('R34', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('R18', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C80', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C89', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('AE1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step')
+('AE1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step')
+('AE1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/U.FL_Molex_MCRF_73412-0110_Vertical.step')
+('C76', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C36', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('D3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step')
+('D3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-123.step')
+('C90', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('D4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step')
+('D4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/D_SOD-323.step')
+('L4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/L_0805_2012Metric.step')
+('D1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric_Castellated.step')
+('D1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/LED_0603_1608Metric.step')
+('R33', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('U3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step')
+('U3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step')
+('C79', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('J4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step')
+('C30', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('U2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.step')
+('C73', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C92', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C23', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C77', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R29', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C27', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('U9', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step')
+('C67', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('Y1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step')
+('Y1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/Crystal_SMD_2520-4Pin_2.5x2.0mm.step')
+('C4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R36', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('R8', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C42', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C57', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R14', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C41', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C65', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C53', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C11', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('U10', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step')
+('R35', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C31', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C63', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R28', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C47', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C7', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R15', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('R3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C51', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('Q2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step')
+('Q2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step')
+('R19', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C85', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C75', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C84', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R7', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C55', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C49', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C88', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R16', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C74', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C12', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C34', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C45', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('U11', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step')
+('C20', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C32', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C95', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C54', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C43', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C17', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R31', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C52', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R10', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C87', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('RN2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step')
+('R5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C83', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C25', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R23', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C15', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C60', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C16', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C86', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C21', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C44', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('U8', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/Diodes_UDFN-10_1x2.5mm_P0.5mm.step')
+('C96', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C28', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R6', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C10', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C68', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C69', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C24', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C62', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C66', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C46', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C71', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C48', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C70', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C82', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R17', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C58', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C50', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('RN3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step')
+('C94', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C38', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C5', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R2', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R4', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C81', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R20', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C61', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C14', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R11', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C9', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('Q3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23-3.step')
+('Q3', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/SOT-23.step')
+('C59', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R24', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('C19', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C39', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C13', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C8', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C64', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C6', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C56', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('R9', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_0402_1005Metric.step')
+('RN1', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/R_Array_Convex_4x0402.step')
+('C40', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')
+('C18', '${KIPRJMOD}/home/bodya/kicad-packages3D-master/C_0402_1005Metric.step')

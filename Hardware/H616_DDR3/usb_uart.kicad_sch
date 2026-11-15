@@ -2295,7 +2295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 148.59 110.49 0)
 			(hide yes)
 			(show_name no)
