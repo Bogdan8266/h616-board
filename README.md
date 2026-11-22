@@ -59,10 +59,10 @@ The board is designed around JLCPCB's standard 8-layer stackup **`JLC08101H-1080
 | **USB 2.0 Differential 90 Ω** | $90\ \Omega$ | **L3** (ref L2/L4) | **0.105 mm** | **0.130 mm** | Inner USB routing |
 | **HDMI / DDR Clock 100 Ω** | $100\ \Omega$ | **L1** (ref L2) | **0.102 mm** | **0.330 mm** | HDMI TMDS clock/data, DDR CK/DQS |
 | **HDMI / DDR Clock 100 Ω** | $100\ \Omega$ | **L3** (ref L2/L4) | **0.103 mm** | **0.310 mm** | Inner 100 Ω differential stripline |
-
+<!--
 > [!IMPORTANT]
 > To order this 8-layer board at promotional pricing without astronomical costs, keep minimum via hole size at **0.2 mm / 0.25 mm drill** with a **≥0.4 mm pad** (for a safe ≥0.1 mm annular ring). For BGA breakout, vias are placed via dog-bone or filled via-in-pad.
-
+-->
 ---
 
 ##  Power System (AXP305 + SW6206)
