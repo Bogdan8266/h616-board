@@ -1,7 +1,7 @@
 ![Status](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-yellow?style=for-the-badge&logo=server)
 ![KiCad](https://img.shields.io/badge/KiCad-10.0-blue?style=for-the-badge&logo=kicad&logoColor=white)
 ![AllWinner](https://img.shields.io/badge/SoC-H616_Quad--Core-009688?style=for-the-badge&logo=allwinner&logoColor=white)
-![JLCPCB](https://img.shields.io/badge/PCB-8--Layer_JLC08101H-purple?style=for-the-badge&logo=PCB)
+![PCB](https://img.shields.io/badge/PCB-8--Layer-purple?style=for-the-badge&logo=PCB)
 ![Power](https://img.shields.io/badge/Power-SW6206_PD3.0_22.5W-orange?style=for-the-badge&logo=battery)
 
 # Nebula Board (Allwinner H616 Devboard)
@@ -32,12 +32,11 @@ The PCB has been floorplanned to strictly separate high-speed digital buses, pow
 
 ---
 
-##  JLCPCB 8-Layer Stackup & Impedance
+##  8-Layer Stackup & Impedance
 
-The board is designed around JLCPCB's standard 8-layer stackup **`JLC08101H-1080`** with a finished thickness of **1.02 mm ±10%**.
+The board is designed around a standard 8-layer stackup with a finished thickness of **1.02 mm ±10%**.
 
 ### Layer Stackup Structure
-![JLCPCB Stackup](pics/stack2.png)
 
 * **L1 (F.Cu):** High-speed signals, RF 50 Ω, components (1 oz copper, 0.035 mm)
 * **L2 (In1.Cu):** **Continuous Ground Plane (GND)** (0.5 oz copper, 0.0152 mm)
@@ -49,7 +48,6 @@ The board is designed around JLCPCB's standard 8-layer stackup **`JLC08101H-1080
 * **L8 (B.Cu):** Decoupling capacitors (0402 directly under BGA balls) & connectors (1 oz copper, 0.035 mm)
 
 ### Controlled Impedance Table
-![Impedance Calculations](pics/stack.png)
 
 | Signal Group | Impedance | Layer | Trace Width | Spacing | Notes |
 |:---|:---:|:---:|:---:|:---:|:---|
